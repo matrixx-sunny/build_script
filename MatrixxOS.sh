@@ -13,7 +13,6 @@ rm -rf kernel/xiaomi/sunny
 rm -rf vendor/xiaomi/sunny
 rm -rf vendor/qcom/common
 rm -rf vendor/qcom/opensource/core-utils
-rm -rf vendor/lineage-priv/keys
 rm -rf vendor/bcr
 rm -rf vendor/xiaomi/mojito-leicacamera
 rm -rf vendor/xiaomi/miuiapps
@@ -28,7 +27,6 @@ rm -rf packages/apps/KProfiles
 rm -rf packages/apps/ViPER4AndroidFX
 # remove source mod
 rm -rf hardware/qcom-caf/sm8150/media
-rm -rf packages/apps/Updater
 rm -rf vendor/lineage
 # Initialize ROM manifest
 repo init -u https://github.com/ProjectMatrixx/android.git -b 14.0 --git-lfs
