@@ -61,9 +61,9 @@ git clone https://github.com/KProfiles/android_packages_apps_Kprofiles.git --dep
 git clone https://github.com/xiaomi-begonia-dev/android_packages_apps_ViPER4AndroidFX.git --depth 1 -b fourteen packages/apps/ViPER4AndroidFX
 # source mods
 git clone https://github.com/yaap/hardware_qcom-caf_sm8150_media.git --depth 1 -b fourteen hardware/qcom-caf/sm8150/media
-git clone https://github.com/matrixx-sunny/android_vendor_lineage.git --depth 1 -b fourteen vendor/lineage
+git clone https://github.com/matrixx-sunny/android_vendor_lineage.git --depth 1 -b 14.0 vendor/lineage
 # signbuild
-# git clone https://github.com/ProjectMatrixx/android_vendor_lineage-priv_keys-template.git -b master vendor/lineage-priv/keys
+# git clone https://github.com/ProjectMatrixx/android_vendor_lineage-priv_keys-template.git --depth 1 -b 14.0 vendor/lineage-priv/keys
 # set build environment
 . build/envsetup.sh
 # cd vendor/lineage-priv/keys
