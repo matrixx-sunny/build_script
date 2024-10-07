@@ -66,6 +66,7 @@ git clone https://github.com/matrixx-sunny/android_vendor_lineage.git --depth 1 
 git clone https://github.com/matrixx-sunny/android_vendor_lineage-priv_keys-template.git --depth 1 -b master vendor/lineage-priv/keys
 # set build environment
 . build/envsetup.sh
+export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 cd vendor/lineage-priv/keys
 ./generate.sh
 cd ..
