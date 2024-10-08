@@ -28,6 +28,8 @@ rm -rf packages/apps/ViPER4AndroidFX
 # remove source mod
 rm -rf hardware/qcom-caf/sm8150/media
 rm -rf vendor/lineage
+# remove signkeys
+rm -rf vendor/lineage-priv/keys
 # Initialize ROM manifest
 repo init -u https://github.com/ProjectMatrixx/android.git -b 14.0 --git-lfs
 # repo sync
